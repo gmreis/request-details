@@ -1,0 +1,23 @@
+{
+  "name": "request-details",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmreis/request-details.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmreis/request-details/issues"
+  },
+  "homepage": "https://github.com/gmreis/request-details#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
