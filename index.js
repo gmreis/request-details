@@ -22,6 +22,8 @@ app.all('*', ({ headers, body, query, path, method, cookies, protocol, hostname 
   response.json(responseJson);
 })
 
-app.listen(port, () => {
-  console.log(`App listening on port ${port}`)
-})
+// app.listen(port, () => {
+//   console.log(`App listening on port ${port}`)
+// })
+
+module.exports = app
